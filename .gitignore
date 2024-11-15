@@ -1,0 +1,48 @@
+# Ignore upload foler in all directories
+/upload/*
+
+# Ignore dist folder in all directories
+/dist/*
+
+# Ignore node_modules folder in all directories
+/node_modules/*
+
+# Backend
+/backend/uploads/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Frontend
+# dependencies
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.js
+
+# testing
+/frontend/coverage
+
+# production
+/frontend/build
+/frontend/dist
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
